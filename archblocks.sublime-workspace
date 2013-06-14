@@ -1,0 +1,241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sub",
+				"sublime-cisco-snippets"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: List",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: Rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: E",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: Upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ad",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"set",
+				"Set Syntax: XML"
+			],
+			[
+				"replace",
+				"Reg Replace: RegEx Input Sequencer"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"XML Lint: Show Error List"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Cisco-acl"
+			],
+			[
+				"Package Control: A",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: Add",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Development/sublime-cisco-syntax/Cisco Definitions.json-tmLanguage",
+		"/C/Users/rbellamy/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/D/Development/RED/Export/src/Database/Listings.xml",
+		"/D/Development/RED/Export/src/Database/Listings.xsd",
+		"/D/Development/RED/Export/src/Database/Listings.cs",
+		"/D/Development/AutoMapper/src/UnitTests/UnitTests.WP8.csproj",
+		"/D/Development/WindowsPowerShell/Scripts/vsvars2010.ps1",
+		"/C/Users/rbellamy/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/Development/Terradatum/workspace/.metadata/.plugins/com.vectrace.MercurialEclipse/styles/log_renames.tmpl",
+		"/D/Development/Terradatum/workspace/.metadata/.plugins/com.vectrace.MercurialEclipse/.key",
+		"/C/Users/rbellamy/Documents/Insync/rbellamy@pteradigm.com/akitu-qos.asa",
+		"/C/Users/rbellamy/AppData/Roaming/Sublime Text 2/Packages/ASP/ASP.tmLanguage",
+		"/C/Users/rbellamy/AppData/Roaming/Sublime Text 2/Packages/Cisco Syntax/Cisco Definitions.tmlanguage"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"component",
+			"dest",
+			"component",
+			".tmp",
+			"css",
+			"dist",
+			"component",
+			"SJHS",
+			"\n  /// <remarks/>\n  [System.CodeDom.Compiler.GeneratedCodeAttribute(\"xsd\", \"2.0.50727.3038\")]\n  [System.SerializableAttribute()]\n  [System.Diagnostics.DebuggerStepThroughAttribute()]\n  [System.ComponentModel.DesignerCategoryAttribute(\"code\")]\n  [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]",
+			"  /// <remarks/>\n  [System.CodeDom.Compiler.GeneratedCodeAttribute(\"xsd\", \"2.0.50727.3038\")]\n  [System.SerializableAttribute()]\n  [System.Diagnostics.DebuggerStepThroughAttribute()]\n  [System.ComponentModel.DesignerCategoryAttribute(\"code\")]\n  [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]",
+			"partial "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
