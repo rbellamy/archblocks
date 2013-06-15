@@ -12,8 +12,7 @@
 # bash install.sh
 
 # RESPOSITORY ------------------------------------------------------------
-#REMOTE=https://raw.github.com/rbellamy/archblocks/master
-REMOTE=file://root/usb/archblocks
+REMOTE=https://raw.github.com/rbellamy/archblocks/master
 
 # CONFIG -----------------------------------------------------------------
 
