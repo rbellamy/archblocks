@@ -12,7 +12,8 @@
 # bash install.sh
 
 # RESPOSITORY ------------------------------------------------------------
-REMOTE=https://raw.github.com/rbellamy/archblocks/master
+#REMOTE=https://raw.github.com/rbellamy/archblocks/master
+REMOTE=file://root/usb/archblocks
 
 # CONFIG -----------------------------------------------------------------
 
@@ -45,6 +46,7 @@ NETWORK=network/wired_wireless_default
 AUDIO=common/audio_alsa
 POWER=common/power_acpi
 SENSORS=common/sensors_default
+INIT=init/systemd_pure
 XORG="xorg/xorg_default xorg/xorg_fonts_infinality xorg/xorg_wacom xorg/xorg_synaptics xorg/mesa_dri"
 VIDEO=video/video_intel
 DESKTOP=xorg/desktop_gnome
