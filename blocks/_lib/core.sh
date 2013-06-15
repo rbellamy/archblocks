@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 # ------------------------------------------------------------------------
 # archblocks - modular Arch Linux install script
 # ------------------------------------------------------------------------
@@ -20,6 +20,7 @@ INCHROOT=false
 if [ -e "${POSTSCRIPT}" ]; then
  INCHROOT=true
 fi
+echo "INCHROOT="${INCHROOT}
 # DEFAULT REPOSITORY URL -------------------------------------------------
 # (probably not useful here if initialization script has already used it,
 # but retained here for reference)
