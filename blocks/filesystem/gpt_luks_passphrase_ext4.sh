@@ -6,11 +6,6 @@
 # path (e.g. /dev/sda) or if INSTALL_DRIVE is set to "query"
 _drivequery;
 
-# query for swap space size
-echo "Enter swap space size in GB (e.g. enter \"2\" for a 2GB partition)";
-echo "For reference, your current RAM size is reporting as $(echo -n $(($(free -m | awk '/^[Mm]em/ {print $2}')/1024)))GB."
-_queryconfirm "Swap space size in GB"
-SWAP_SIZE=$QUERYRESPONSE
 
 BOOT_DRIVE=$INSTALL_DRIVE
 PARTITION_EFI_BOOT=1
@@ -28,6 +23,11 @@ EFI_SYSTEM_PARTITION=/boot/efi
 
 _filesystem_pre_baseinstall () {
 _countdown 10 "ERASING $INSTALL_DRIVE"
+# query for swap space size
+echo "Enter swap space size in GB (e.g. enter \"2\" for a 2GB partition)";
+echo "For reference, your current RAM size is reporting as $(echo -n $(($(free -m | awk '/^[Mm]em/ {print $2}')/1024)))GB."
+_queryconfirm "Swap space size in GB"
+SWAP_SIZE=$QUERYRESPONSE
 # Here we create three partitions:
 # 1. efi and /boot (one partition does double duty)
 # 2. swap
