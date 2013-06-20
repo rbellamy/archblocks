@@ -11,6 +11,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "blocks/filesystem/gpt_luks_passphrase_ext4.sh",
+			"settings":
+			{
+				"buffer_size": 4416,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -116,6 +124,31 @@
 	},
 	"file_history":
 	[
+		"/C/Users/rbellamy/Documents/Insync/rbellamy@terradatum.com/mv/agent_mv.html",
+		"/D/Development/archblocks/install_uruk.sh",
+		"/D/Development/archblocks/blocks/filesystem/gpt_luks_passphrase_ext4.sh",
+		"/D/Development/archblocks/blocks/common/init_systemd.sh",
+		"/D/Development/archblocks/blocks/common/install_pacstrap.sh",
+		"/D/Development/archblocks/blocks/common/locale_default.sh",
+		"/D/Development/archblocks/blocks/common/postflight_rootpass.sh",
+		"/D/Development/archblocks/blocks/common/postflight_sudouser.sh",
+		"/D/Development/archblocks/blocks/common/time_ntp_utc.sh",
+		"/D/Development/archblocks/blocks/common/time_chrony_utc.sh",
+		"/D/Development/archblocks/blocks/common/sensors_default.sh",
+		"/D/Development/archblocks/blocks/common/ramdisk_default.sh",
+		"/D/Development/archblocks/blocks/common/power_acpi.sh",
+		"/D/Development/archblocks/blocks/hardware/laptop/lenovo_thinkpad_t420.sh",
+		"/D/Development/archblocks/blocks/network/wired_wireless_minimal.sh",
+		"/D/Development/archblocks/blocks/network/wired_wireless_default.sh",
+		"/D/Development/archblocks/blocks/video/video_intel.sh",
+		"/D/Development/archblocks/blocks/xorg/mesa_dri.sh",
+		"/D/Development/archblocks/blocks/xorg/xorg_wacom.sh",
+		"/D/Development/archblocks/blocks/xorg/xorg_synaptics.sh",
+		"/D/Development/archblocks/blocks/xorg/xorg_fonts_infinality.sh",
+		"/D/Development/archblocks/dev_full.sh",
+		"/D/Development/archblocks/blocks/bootloader/efi_gummiboot.sh",
+		"/D/Development/archblocks/blocks/appsets/phc_test.sh",
+		"/D/Development/archblocks/blocks/appsets/gvim_basics.sh",
 		"/D/Development/sublime-cisco-syntax/Cisco Definitions.json-tmLanguage",
 		"/C/Users/rbellamy/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 		"/D/Development/RED/Export/src/Database/Listings.xml",
@@ -146,6 +179,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"init",
 			"component",
 			"dest",
 			"component",
@@ -177,6 +211,32 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "blocks/filesystem/gpt_luks_passphrase_ext4.sh",
+					"settings":
+					{
+						"buffer_size": 4416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3537,
+								3537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -236,6 +296,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 272.0,
 	"status_bar_visible": true
 }

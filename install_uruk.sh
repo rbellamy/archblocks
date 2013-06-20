@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 # ------------------------------------------------------------------------
 # archblocks - minimal, modular, manual Arch Linux install script
 # ------------------------------------------------------------------------
@@ -22,10 +22,10 @@ USERSHELL=/bin/zsh
 FONT=Lat2-Terminus16
 FONT_MAP=8859-1_to_uni
 LANGUAGE=en_US.UTF-8
-KEYMAP=us
+KEYMAP=dvorak
 TIMEZONE=US/Pacific
 MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
-HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck shutdown"
+HOOKS="base udev autodetect pata scsi sata usb usbinput keymap consolefont encrypt filesystems fsck shutdown"
 KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1"
 # KERNEL_PARAMS is used in FILESYSTEM, INIT, BOOTLOADER blocks (gets added to)
 
@@ -55,7 +55,7 @@ APPSETS="appsets/cli_hardcore appsets/gvim_basics appsets/mutt_basics appsets/gi
 # EXTRA PACKAGES ---------------------------------------------------------
 # if you don't want to create a new block, you can specify extra packages
 # from official repos or AUR here (simple space separated list of packages)
-PACKAGES="git rxvt-unicode xterm"
+PACKAGES="git rxvt-unicode xterm zsh"
 AURPACKAGES="termite-git"
 
 # EXECUTE ----------------------------------------------------------------
