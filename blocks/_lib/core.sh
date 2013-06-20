@@ -16,11 +16,8 @@
 MNT=/mnt; TMP=/tmp/archblocks; POSTSCRIPT="/post-chroot.sh"
 
 # get chroot status
-INCHROOT=false
-if [ -e "${POSTSCRIPT}" ]; then
- INCHROOT=true
-fi
-echo "INCHROOT="${INCHROOT}
+[ -e "${POSTSCRIPT}" ] && INCHROOT=true || INCHROOT=false
+
 # DEFAULT REPOSITORY URL -------------------------------------------------
 # (probably not useful here if initialization script has already used it,
 # but retained here for reference)
