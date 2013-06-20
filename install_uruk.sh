@@ -45,11 +45,12 @@ NETWORK=network/wired_wireless_default
 AUDIO=common/audio_alsa
 POWER=common/power_acpi
 SENSORS=common/sensors_default
+INIT=init/systemd_pure
 XORG="xorg/xorg_default xorg/xorg_fonts_infinality xorg/xorg_wacom xorg/xorg_synaptics xorg/mesa_dri"
 VIDEO=video/video_intel
 DESKTOP=xorg/desktop_gnome
 HARDWARE=hardware/laptop/lenovo_thinkpad_t420
-APPSETS="appsets/cli_hardcore appsets/gvim_basics appsets/mutt_basics appsets/git_basics appsets/chromium_basics"
+APPSETS="appsets/gvim_basics appsets/mutt_basics appsets/chrome_basics"
 
 # EXTRA PACKAGES ---------------------------------------------------------
 # if you don't want to create a new block, you can specify extra packages
