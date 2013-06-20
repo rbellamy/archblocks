@@ -5,10 +5,7 @@
 
 _installpkg alsa-utils alsa-plugins
 
-if _systemd; then
-#    systemctl enable alsa-store.service
-#    systemctl enable alsa-restore.service
-else
+if [ ! _systemd ]; then
     _daemon_add @alsa
 fi
 
