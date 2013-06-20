@@ -31,13 +31,14 @@ MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
 HOOKS="base udev autodetect pata scsi sata usb usbinput keymap consolefont encrypt filesystems fsck shutdown"
 KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1"
 
-INSTALL_DRIVE=query # "/dev/sda" "query" or blank (blank is the same as "query")
+INSTALL_DRIVE=/dev/sda # "/dev/sda" "query" or blank (blank is the same as "query")
 
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_chrony_utc
 FILESYSTEM=filesystem/gpt_luks_passphrase_ext4
 BOOTLOADER=bootloader/efi_gummiboot
 NETWORK=network/wired_wireless_default
+INIT=init/systemd_pure
 
 # EXECUTE ----------------------------------------------------------------
 . <(curl -fsL "${REMOTE}/blocks/_lib/helpers.sh"); _loadblock "_lib/core"
