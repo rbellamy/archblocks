@@ -37,6 +37,8 @@ KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_dow
 # mr will be installed if this variable is set.
 #MR_BOOTSTRAP=https://raw.github.com/altercation/es-etc/master/vcs/.mrconfig
 
+INSTALL_DRIVE=/dev/sda # "/dev/sda" "query" or blank (blank is the same as "query")
+
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_chrony_utc
 FILESYSTEM=filesystem/gpt_luks_passphrase_ext4

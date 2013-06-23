@@ -28,7 +28,7 @@ TIMEZONE=US/Pacific
 MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
 #HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck shutdown"
 # possible fix for occasional blank screen on resume? https://wiki.archlinux.org/index.php/Pm-utils#Blank_screen_issue
-HOOKS="base udev autodetect pata scsi sata usb usbinput keymap consolefont encrypt filesystems fsck shutdown"
+HOOKS="base udev autodetect block keyboard keymap consolefont encrypt filesystems fsck shutdown"
 KERNEL_PARAMS="quiet i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1"
 
 INSTALL_DRIVE=/dev/sda # "/dev/sda" "query" or blank (blank is the same as "query")
