@@ -105,5 +105,5 @@ _filesystem_post_chroot ()
 mount -t vfat ${INSTALL_DRIVE}${PARTITION_EFI_BOOT} ${EFI_SYSTEM_PARTITION} || return 1;
 # KERNEL_PARAMS used by BOOTLOADER
 # KERNEL_PARAMS="${KERNEL_PARAMS:+${KERNEL_PARAMS} }cryptdevice=/dev/sda3:${LABEL_ROOT_CRYPT} root=/dev/mapper/${LABEL_ROOT_CRYPT} ro rootfstype=ext4"
-KERNEL_PARAMS="${KERNEL_PARAMS:+${KERNEL_PARAMS} }cryptdevice=UUID=$(_get_uuid ${INSTALL_DRIVE}${PARTITION_CRYPT_ROOT}):${LABEL_ROOT_CRYPT}:allow-discards root=/dev/mapper/${LABEL_ROOT_CRYPT} ro rootfstype=ext4"
+KERNEL_PARAMS="${KERNEL_PARAMS:+${KERNEL_PARAMS} }cryptdevice=PARTUUID=$(_get_uuid ${INSTALL_DRIVE}${PARTITION_CRYPT_ROOT}):${LABEL_ROOT_CRYPT}:allow-discards root=/dev/mapper/${LABEL_ROOT_CRYPT} ro rootfstype=ext4"
 }
