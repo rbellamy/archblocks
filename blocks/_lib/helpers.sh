@@ -231,7 +231,7 @@ _chroot_postscript ()
 echo -e "#!/bin/bash -x\nINSTALL_DRIVE=$INSTALL_DRIVE" > "${MNT}${POSTSCRIPT}";
 grep -v "^\s*INSTALL_DRIVE.*" "${0}" >> "${MNT}${POSTSCRIPT}";
 #cp "${0}" "${MNT}${POSTSCRIPT}";
-chmod a+x "${MNT}${POSTSCRIPT}"; arch-chroot "${MNT}" "${POSTSCRIPT} 2>${POSTSCRIPTLOG}";
+chmod a+x "${MNT}${POSTSCRIPT}"; arch-chroot "${MNT}" "/${POSTSCRIPT} 2>${POSTSCRIPTLOG}";
 }
 
 # COUNTDOWN --------------------------------------------------------------
