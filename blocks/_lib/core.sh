@@ -13,7 +13,7 @@
 [ ! -f "${0}" ] && echo "Don't run this directly from curl. Save to file first." && exit
 
 # set mount point, temp directory, script values
-MNT=/mnt; TMP=/tmp/archblocks; POSTSCRIPT="/post-chroot.sh"
+MNT=/mnt; TMP=/tmp/archblocks; POSTCHROOT="/post-chroot"; POSTSCRIPT="${POSTSCRIPT}.sh"; POSTSCRIPTLOG="${POSTCHROOT}.log";
 
 # get chroot status
 [ -e "${POSTSCRIPT}" ] && INCHROOT=true || INCHROOT=false
